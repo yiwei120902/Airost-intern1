@@ -1,0 +1,457 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi there",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Good morninng",
+        "Good afternoon",
+        "Good evening",
+        "Good night",
+        "What's up",
+        "Hi",
+        "hai",
+        "hey bro",
+        "what are you doing",
+        "are you free",
+        "Hello! How are you today?",
+        "Hi there! I hope you're doing well.",
+        "Hey! It's great to see you.",
+        "How's your day going?",
+        "Greetings! I trust everything is going smoothly for you.",
+        "Hi [Name]! What's new?",
+        "Hello, friend! How have you been?"
+      ],
+      "responses": [
+        "Hey,how are you feeling today?",
+        "Hello, how are you feeling today?",
+        "Hi there, how are you feeling today?",
+        "Hi there, how can I help?"
+      ],
+      "context":[""]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What's your name?",
+        "Do you have a name?",
+        "Tell me about yourself.",
+        "who are you?",
+        "Are you an AI",
+        "am i your friends",
+        "We are friend",
+        "what you can do",
+        "what is your function"
+      ],
+      "responses": [
+        "I'm a chatbot designed to assist you!",
+        "I don't have a personal name, but you can call me Chatbot.",
+        "I'm just Chatbot, here to provide information and answer your questions."
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "How's the weather today?",
+        "Tell me about the weather forecast.",
+        "Do I need an umbrella today?",
+        "is it today a sunny day",
+        "is it today a hot day",
+        "is it today is winter day"
+      ],
+      "responses": [
+        "I'm sorry, I don't have access to real-time weather information.",
+        "You can check a reliable weather website for the current forecast.",
+        "I don't have weather updates, but I can help with other queries!"
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke!",
+        "I could use a laugh. Joke time!",
+        "Got any funny stories?",
+        "i need a joke",
+        " i am boring, please give me joke",
+        "please make me laugh",
+        "Hey there! I could use a good laugh. Do you have a favorite joke you can share with me?",
+        "i am bored"
+      ],
+      "responses": [
+        "Here's the joke.Why don't scientists trust atoms? Because they make up everything!",
+        "Here's the joke. What do you call fake spaghetti? An impasta!",
+        "I hope this brings a smile: Why did the scarecrow win an award? Because he was outstanding in his field!"
+      ]
+    },
+
+    {"tag":"personalInfo",
+    "patterns":["i live in","i am","my age is","i am years old","my name is","i am a boy","i am a girl","i am a human","I AM CHINESE"],
+    "responses":["information stored.Welcome to medical portal"],
+    "context":[""]
+    },
+
+    {"tag":"greaterFineAwesome",
+    "patterns":["i am feeling great", "i feel fine","i am feeling fine","i am feeling great","I AM SO HAPPY","i am great","i feel awesome","feeling the best","i am happy","never been happy before"],
+    "responses":["great to know. how can i assist you then?","good to know. how may i assist you then?"],
+    "context":[""]
+
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye","i am going to sleep","i take a nap","i busy with my job first","i am going to settle my task"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ],
+      "context":[""]
+
+    },
+    {
+      "tag": "thanksHelpful",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!","appreciate it","i cannot imaging live without you","thankuuuuu","thanks for the helps"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"],
+      "context":[""]
+    },
+    
+    {
+      "tag": "notFeelingWellSick",
+      "patterns": [
+        "I am not feeling well",
+        "I am feeling weak today",
+        "T am not feeling good",
+        "I wanna die",
+        "i feel sick",
+        "i am sick",
+        "i do not feeling well",
+        "i am not well",
+        "not feeling good",
+        "i feel Nausea and Vomiting",
+        "i am feeling dizzy",
+        "feeling faint",
+        "I'm not feeling too well today, unfortunately.",
+        "I'm a bit under the weather right now.",
+        "I'm feeling a bit off today, health-wise.",
+        "I'm not at my best health-wise today.",
+        "Unfortunately, I'm not feeling well at the moment.",
+        "I'm a little under the weather, so I might not be my usual self today.",
+        "I'm not feeling great today, so I might need to take it easy.",
+        "sick",
+        "not good"
+        
+      ],
+      "responses": [
+        "NOTED.Are you ok?Can you tell me what's wrong? And what are your symptoms?",
+        "Are you ok? can you tell me what's wrong? what are your symptoms?"
+      ],
+      "context":[""]
+    },
+    {
+      "tag": "coughColdNoseThroat",
+      "patterns": [
+        "my nose is choked",
+        "i have a cold",
+        "i have a cough",
+        "My chest is aching.",
+        "My nose is itching.",
+        "My throat is itching.",
+        "i have dry cough. A cough without the production of mucus or phlegm.",
+        "i have wet or Productive Cough.Involves the expulsion of mucus or phlegm, often seen in respiratory infections.",
+        "i have Shortness of Breath.Difficulty breathing, which may accompany a persistent cough.",
+        "i have runny nose",
+        "i am sneezing",
+        "I've been experiencing a persistent cough lately, and I wanted to get your advice on it.",
+        "I've noticed I have a cough that doesn't seem to be going away. Do you have any recommendations on how to address it?",
+        "I've developed a cough recently.",
+        "I've been dealing with a cough, and I was hoping you could help me figure out the best way to manage or treat it.",
+        "I've had this persistent cough",
+        "I've noticed a cough that's been lingering",
+        "I wanted to bring to your attention that I've developed a cough. ",
+        "cough"
+        
+      ],
+      "responses": [
+        "if there is a symptom of cold, you should take Sudafed tablet after your meal",
+        "if there is a symptom of cold, you should take Sudafed tablet or a spoon full of Benadryl after your meal"
+      ],
+      "context":["takeTheMedicine"]
+    },
+    {
+      "tag": "feverTemperatureShivering",
+      "patterns": [
+        "My body temperature has raised",
+        "I am shivering",
+        "i am feeling hot",
+        "i am Chills and Shivering",
+        "i am sweating a lot",
+        "i was a little bit Dehydration",
+         "I've been running a fever lately, and I wanted to get your advice on how to manage it.",
+        "I've noticed I have a fever that doesn't seem to be going away. Can you provide some guidance on what I should do?",
+        "I've developed a fever recently, and I thought it would be best to consult with you to understand its cause and potential treatment.",
+        "I've been dealing with a fever",
+        "I've had this persistent fever.",
+        "I've noticed a fever that's been lingering",
+        "I wanted to bring to your attention that I've developed a fever. ",
+        "fever",
+        "hot"
+      ],
+      "responses": [
+        "This is a symptom of fever. If you have a fever, you should take a tablet of Crocin after having your meal"
+      ],
+      "context":["takeTheMedicine"]
+    },
+    {
+      "tag": "fractureAchingPaining",
+      "patterns": [
+        "my hand is aching",
+        "my leg is aching",
+        "my joint is aching",
+        "my hand is paining",
+        "my leg is paining",
+        "my joint is paining",
+        "my arm is in pain",
+        "i may have a fracture",
+        "i have fracture"
+        
+        ],
+
+      "responses": [
+        "Noted. Did you get hurt, or it is a sudden aching? And is there any a swelling or physical deformity or bleeding at the aching region?"
+      ],
+      "context":["hurtSwellingAche"]
+    },
+    {
+      "tag": "hurtSwellingAche",
+      "patterns": [
+        "yes, i got hurt before",
+        "yes, there is a swelling at that region",
+        "yes,there is physical deformity at that region",
+        "yes, there is a bleeding at that region",
+        "yes,it is a mild ache",
+        "i got swelling at that region",
+        "this restrict normal movement in the injured area",
+        "yes, limited movement is observed",
+        "yes i got bruised",
+        "swelling",
+        "hurt before",
+        "got ache"
+      ],
+      "responses": [
+        "Okay, it is common symptom of fracture, should i book an appoinment with you?"
+      ],
+      "context":["makeAppointment"]
+    },
+    {
+      "tag": "headache",
+      "patterns": [
+        "i have a headache",
+        "headache",
+        "I am currently experiencing discomfort or pain in my head.",
+        "having a headache can affect my mood and productivity",
+        "I am currently experiencing discomfort or pain in my head. The sensation varies from a dull ache to a sharp pain. It might be accompanied by other symptoms such as sensitivity to light or sound, difficulty concentrating, or mild nausea"
+
+      ],
+      "responses": [
+        "What kind of headache do you have?1. Migrane headache - intense throbbing pain on just one side of the head.2. Cluster headaches - severe and recurrent headaches.3. Tension Headache - Occasional."
+      ],
+      "context":["migraneHeadache","clusterHeadache","tensionHeadache"]
+    },
+    {
+      "tag": "migraneHeadache",
+      "patterns": [
+        "i have a migrane headache",
+        "migrane headache",
+        "migrane"
+      ],
+      "responses": [
+        "Symptom noted. Migraines tend to be recurrent, and each attack may last up to 3 days. Would you like to talk to a doctor?"
+      ],
+      "context":["makeAppointment"]
+    },
+    {
+      "tag": "clusterHeadache",
+      "patterns": [
+        "i have a cluster headache",
+        "cluster headache",
+        "cluster"
+      ],
+      "responses": [
+        "Symptom noted. Attacks tend to occur in daily clusters that can persist for weeks or months. They typically take place at the same time of day, which can often be a couple of hours after falling asleep at night. Would you like to talk to a doctor?"
+      ],
+      "context":["makeAppointment"]
+    },
+    {
+      "tag": "tensionHeadache",
+      "patterns": [
+        "i have a tension headache",
+        "tension headache",
+        "tension"
+      ],
+      "responses": [
+        "Symptom noted. The cause of tension headaches is unclear, but stress, anxiety, and depression are common triggers. Would you like to talk to a doctor?"
+      ],
+      "context":["makeAppointment"]
+      
+    },
+    {
+      "tag": "takeTheMedicine",
+      "patterns": [
+        "ok, i will take the sudafed tablet after my meal",
+        "ok, i will take the benadryl after my meal",
+        "ok,i will take the crocin",
+        "ok",
+        "ok, i will take it later",
+        "i see, i will take it later",
+        "noted thank you i will take it later",
+        "I've taken my medicine",
+        "Feeling a bit under the weather, but I've taken my medication, so I'm hopeful for improvement soon.",
+        "Medicine is in, and I'm taking it easy, hoping for a speedy recovery.",
+        "Took my prescribed medicine, so I'm on the mend. Your concern means a lot!",
+        "Addressed my condition with some medication",
+        "Medication is doing its job, and I'm optimistic about getting back to normal soon.",
+        "I've already taken medicine for my condition, so here's hoping for a swift turnaround.",
+        "take medicne"
+        
+      ],
+      "responses": [
+        "Let me know if you are feeling better after having medicine",
+        "Good, now take some rest and then let me know if yoou are feeling better"
+      ],
+      "context":["stillNotFeeling"]
+    },
+    {
+      "tag": "stillNotFeeling",
+      "patterns": [
+        "no, i am still not feeling better after having sudafed tablet",
+        "no, i am still no feeling so well after having benadryl",
+        "no, i am still not feeling better after having crocin",
+        "no, i am still not feeling better after taking medicine",
+        "i am not feeling better",
+        "not feeling better",
+        "feel more sick",
+        "Took the medicine, but unfortunately, not feeling better yet. Hoping it kicks in soon.",
+        "I've taken the medicine, but it hasn't fully kicked in. ",
+        "The medicine's taken, but I'm still not feeling great. Hopefully, it'll start working soon.",
+        "Took the prescribed medicine, but no relief just yet. Patience is the name of the game, I suppose.",
+        "Medication's in, but the improvement is slow. Hopefully, it's just a matter of time before things turn around.",
+        "Medicine's taken, but I'm still waiting for that turnaround.",
+        "Took the medicine as directed, but the situation hasn't changed much.",
+        "not good still",
+        "same not change",
+        "become more serious"
+      ],
+      "responses": [
+        "I see, it's not just a normal disease. you should consult a doctor."
+        
+      ],
+      "context":["makeAppointment","noI"]
+    },
+    {
+      "tag": "makeAppointment ",
+      "patterns": [
+        "Can you book an appointment for me ",
+        "i would like to talk to a doctor",
+        "yes, please help me to do the appointment",
+        "yes,please help me",
+        "i need an appointment",
+        "i need your help for the appointment",
+        "thank you, please help me for the appointment",
+        "Hey, I could use a hand making an appointment. Do you mind helping me out?",
+        "I'm having trouble scheduling an appointment. Could you assist me with that, please?",
+        "I need to set up an appointment, and I'm a bit lost. Can you lend a hand in figuring it out?",
+        "I'm struggling to make an appointment. Any chance you could help guide me through the process?",
+        "I'm having difficulty with scheduling. Would you mind assisting me in making an appointment?",
+        "I could use some help making an appointment. Are you available to assist me with that?",
+        "I'm a bit overwhelmed with making an appointment. Can you offer some help or guidance?"
+              ],
+      "responses": ["Sure, please refer to this link for the booking system"],
+       "links":   ["https://www.google.com/search?q=google+translate&rlz=1C1BNSD_enMY1025MY1025&oq=google&gs_lcrp=EgZjaHJvbWUqCQgDEEUYOxiPAjIGCAAQRRg5MhgIARAuGBQYgwEYxwEYhwIYsQMY0QMYgAQyDAgCECMYJxiABBiKBTIJCAMQRRg7GI8CMgYIBBBFGDwyBggFEEUYPDIGCAYQRRg8MgYIBxAFGEDSAQgyODM0ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8"]
+    ,
+      "context":["afterMakingAppointment"]
+    },
+    {
+      "tag": "askingSeeDoctor ",
+      "patterns": [
+        "is a doctor available ? ",
+        "hi can i see a doctor ?",
+        "i want to talk to a doctor",
+        "is any doctor are free",
+        "Hey, I need to see if my doctor is available. Could you help me check their schedule?",
+        "I'm looking to book an appointment with my doctor. Could you check if they have any availability?",
+        "I'm trying to find out when my doctor is available. Mind helping me check their schedule?",
+        "I need to see if my doctor has any open slots. Can you assist in checking their availability?",
+        "Could you help me check when my doctor is available for an appointment?",
+        "I'm looking to schedule with my doctor, and I was wondering if you could check their availability for me.",
+        "I need to book a doctor's appointment and was hoping you could help me check their availability. Is that possible?"
+      ],
+      "responses": [
+        "sorry, all doctors are occupied at the moment. We will connect you to a doctor soon. Do you want to book an appointment?",
+        "all doctors are attending patients. we shall revert to your request soon. Do you want to book an appointment?",
+        "you shall be called once the doctor is available. Do you want to book an appointment?"
+        
+      ]
+    },
+    {
+      "tag": "afterMakingAppointment ",
+      "patterns": [
+        "Patient: Name: Date: Time: Doctor: Hospital:"
+      ],
+      "responses": [
+        "data are stored"
+        
+      ]
+    },
+    {
+      "tag": "noI  ",
+      "patterns": [
+        "no, i kind or tired to go out ",
+        "no, i may just stay in home",
+        "no, i am too busy to go out",
+        "no thank you",
+        "no,i don't want",
+        "I appreciate the concern, but I'm currently dealing with some pressing matters and won't be able to meet the doctor right now. Thanks for understanding.",
+        "Thank you for thinking of me. Unfortunately, I'm feeling quite unwell busy at the moment and won't be able to make it to the doctor's appointment. I'll keep you updated on my situation.",
+        "I really appreciate your suggestion to see the doctor. However, I'm currently swamped with work/feeling too sick, and I won't be able to make it. Let's catch up soon, and I'll update you on my health.",
+        "Thanks for your concern. I'm not able to meet the doctor right now due to a busy schedule/feeling under the weather. I'll make sure to prioritize my health and seek medical attention as needed.",
+        "I value your advice, but unfortunately, I'm tied up with some commitments/feeling too sick to visit the doctor at the moment. I'll make it a priority to address my health concerns soon.",
+        "I appreciate your suggestion, but I'm currently dealing with a hectic schedule/health issues, and meeting the doctor right away isn't feasible. I'll make sure to take care of myself and seek medical advice as needed.",
+        "Thank you for your concern about my health. Unfortunately, I'm unable to meet the doctor at the moment due to prior commitments/feeling too unwell. I'll keep you posted on any developments and appreciate your understanding."
+      ],
+      "responses": [
+        "Understand it, but if your symptoms are getting serious, consulting a doctor would be the best choice. Take care."
+        
+      ]
+    },
+    {
+      "tag": "do not have symptom",
+      "patterns": [
+        "no, i do not have that sympton ",
+        "no",
+        "no, I don't have",
+        "Thank you for your concern, but I don't have that symptom at the moment.",
+        "Fortunately, I don't currently have that particular symptom you mentioned.",
+        " but I'm not experiencing that symptom right now.",
+        "Luckily, that's not a symptom I'm dealing with presently.",
+        "I don't have that symptom",
+        " I don't have that symptom you mentioned.",
+        "Fortunately, that's not something I'm currently dealing with. Thanks for asking."
+
+
+
+
+        
+      ],
+      "responses": [
+        "Noted, if there any detail you want to inform me?",
+        "Noted"
+        
+      ]
+    }
+    
+  ]
+}
